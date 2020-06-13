@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,136 @@
     <link rel="stylesheet" href="css/tempone.css">
     <title>First Teampalte</title>
 </head>
+
 <body>
-    <h3 class="text-center">sddddddd</h3>
+    <header>
+        <div class="container">
+            <!-- nav bar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">to do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-light" role="button" href="#">book room</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- nav bar -->
+            <!-- slider -->
+            <div class="slider text-center my-5">
+                <h3>anton & lily</h3>
+                <p>bed & breakfast</p>
+                <div class="imageContainer">
+                    <img src="images/-2015298039.jpg" alt="" class="img-fluid">
+                </div>
+
+                <div class="bookingSection my-5">
+                    <div class="checkIn bookingInputs">
+                        <label for="">check in</label>
+                        <input type="text" name="ComeDate" id="ComeDate" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="checkOut bookingInputs">
+                        <label for="">check out</label>
+                        <input type="text" name="LeaveDate" id="LeaveDate" placeholder="DD MM YYYY">
+                    </div>
+                    <div class="adultMembers bookingInputs">
+                        <label for="">Adult</label>
+                        <input type="number" name="adultNumber" id="adultNumber" value="1">
+                    </div>
+                    <div class="kidsMembers bookingInputs">
+                        <label for="">Kids</label>
+                        <input type="number" name="kidsNumbers" id="kidsNumbers" value="0">
+                    </div>
+                    <div class="search bookingInputs my-auto">
+                        <button type="button" class="btn btn-dark">SEARCH</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- slider -->
+    <!-- about -->
+    <section id="about">
+        <div class="container text-center">
+            <h3>about</h3>
+            <p class="mx-5 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque possimus cum, nesciunt ipsum corporis quaerat quae sunt labore voluptatibus sit quisquam quibusdam reiciendis deleniti consequuntur ut voluptatem id illo. Veritatis maxime earum, totam quidem, quos nulla accusantium et unde, porro quia rerum consectetur at deserunt eligendi corporis consequuntur est mollitia vitae? Eveniet voluptas, iste nemo porro eius culpa inventore odit dolor aspernatur. Consectetur repudiandae numquam natus delectus dolor unde ea velit, expedita praesentium ipsum!</p>
+        </div>
+    </section>
+    <!-- about -->
+    <!-- our rooms -->
+    <section id="ourRooms" class="overflow-hidden my-5">
+        <div class="room mx-auto w-50 my-5 bg-light text-center overflow-hidden">
+            <h4 class="my-5">OUR ROOMS</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem sequi reprehenderit ipsa et eum excepturi facilis facere recusandae, quidem doloremque architecto, aut, quia illum sapiente.</p>
+            <button type="button" class="btn btn-light my-5 bookAroom">Book A Room</button>
+        </div>
+    </section>
+    <!-- our rooms -->
+    <!-- our services -->
+    <section id="OurServices" class="overflow-hidden my-5 text-center">
+        <div class="container">
+            <h3>OUR SERVICES</h3>
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Breakfast</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Breakfast</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Garden</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Breakfast</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Breakfast</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/FB_IMG_1431011930680.jpg" alt="rafale aircraft" class="w-50 rounded-pill"> 
+                    <h5 class="my-3">Breakfast</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel similique quos ducimus accusamus, blanditiis sequi possimus rem eum et.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- linking js -->
@@ -18,4 +147,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/tempone.js"></script>
 </body>
+
 </html>
