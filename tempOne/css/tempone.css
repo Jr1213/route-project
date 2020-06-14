@@ -35,3 +35,19 @@
 .bookAroom{
     border: 1px solid #000;
 }
+.review {
+    background-image: url('/images/house-5148865_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* contacts */
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs{
+    text-align: left;
+    margin-top: 10px;
+}
