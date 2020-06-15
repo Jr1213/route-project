@@ -1,3 +1,78 @@
 body{
-    background-color: blueviolet;
+    background-color: #cccccc;
+}
+.btn-pink{
+    background-color: rgb(241, 0, 161);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-pink:hover, .btn-pink:active{
+    background-color: rgb(158, 22, 124);
+    color: #fff;
+}
+.hedding {
+    display: flex;
+    align-items: flex-end;
+}
+.hedding .title{
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 25%;
+}
+.hedding .line {
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 12px;
+}
+/* navbar */
+.navbar-light .navbar-brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+/* silder */
+.slider .heading {
+    background-color: rgb(241, 0, 161);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/* phones & tablets & lap */
+.slick .card{
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+}
+.slick .card .card-img-top{
+    max-height: 400px;
+}
+
+/* brands */
+.brands .container .row .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.brands .container .row .col-md-4 img {
+    filter: grayscale(1);
+    transition: all .3s;
+}
+.brands .container .row .col-md-4 img:hover {
+    filter: grayscale(0);
+}
+
+/* footer */ 
+footer div {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    
 }
