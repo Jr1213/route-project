@@ -76,3 +76,21 @@ footer div {
     text-transform: capitalize;
     
 }
+
+/* responsive */
+@media (max-width: 768px) and (min-width:425px) {
+    html{
+        font-size: 12px;
+    }
+    .hedding .title{
+        width: 30%;
+    }
+}
+@media (max-width: 426px) and (min-width:0px){
+    html{
+        font-size: 8px;
+    }
+    .hedding .title{
+        width: 50%;
+    }
+}
