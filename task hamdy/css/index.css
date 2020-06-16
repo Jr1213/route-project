@@ -1,0 +1,72 @@
+
+#nav{
+    padding: 0;
+   
+}
+
+#inNav{
+    background-color: rgba(237, 205, 31, 1);    
+    
+}
+.navbar-nav .nav-item{
+    color: lightgray !important;
+    margin-left: 1rem;
+}
+#header{
+    background-image:url(../images/construction.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+#header #head h1{
+    font-size: 3rem;
+    font-weight: bold;
+ font-family:   Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+#mark{
+    width: 5rem;
+    height: 0.5rem;
+    background-color: rgba(237, 205, 31, 1); 
+}
+#card{
+    background-color:#eee;
+}
+#about{
+    height: 80vh;
+    background-color:#eee;
+}
+#about #image{
+    height: 80vh;
+}
+#numbers{
+    background-color: rgba(237, 205, 31, 1); 
+    position: relative;
+}
+ #number ::after{
+    content: "";
+    background-color: white;
+    width: 3px;
+    height: 6rem;
+    position: absolute;
+    top: 10%;
+    right: -5rem;
+}
+#projectsImg{
+    height: 40vh;
+}
+#line2{
+    width: 100%;
+    height: 5px;
+    background-color: teal;
+}
+@media (min-width:0px) and (max-width: 764px) {
+    html {
+        font-size: 10px
+        f
+    }
+#navFix{width: 100vh;}
+
+    }
+
+
+
