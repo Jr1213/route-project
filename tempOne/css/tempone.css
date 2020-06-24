@@ -1,3 +1,42 @@
+/* edit */
+#edit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.746);
+    z-index: 3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    display: none;
+}
+#edit .square {
+    width: 75%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.square p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.square label {
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
 /* nav bar */
 .navbar-dark .navbar-nav .nav-link{
     text-transform: uppercase;
