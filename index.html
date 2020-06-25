@@ -1,19 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Project One</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Wix</title>
 </head>
+
 <body>
-    <h2>Amr Salem</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, eveniet.</p>
-    <h2>Mohammed Jr</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusamus culpa commodi laboriosam saepe. Architecto sit reprehenderit ipsa modi accusamus.</p>
-    <h2>hamdy ahmed</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde voluptatem ullam eaque illum ut? Reprehenderit porro ipsa itaque iste consequatur maiores sequi accusamus ad, harum illo nihil tenetur, ab laboriosam?</p>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">wix</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feauter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">subscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">tempaltes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light" href="#" role="button">Sing UP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- slider -->
+    <section id="slider" class="slider my-5">
+        <div class="container">
+            <div class="slick">
+                <div>
+                    <img src="images/tempThree.png" alt="" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/temp2.png" alt="" class="img-fluid">
+                </div>
+                <div>
+                    <img src="images/temp1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- feauter -->
+    <section id="feauter" class="feauter my-5 overflow-hidden container">
+        <div class="card-deck text-center">
+            <div class="card">
+                <img class="card-img-top" src="images/tempThree.png" alt="" class="img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">tempalte 1</h4>
+                    <a name="" id="" class="btn btn-primary py-2 px-4" href="#" role="button">view</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/temp2.png" alt="" class="img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">teamplate 2</h4>
+                    <a name="" id="" class="btn btn-primary py-2 px-4" href="#" role="button">view</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/temp1.png" alt="" class="img-fluid">
+                <div class="card-body">
+                    <h4 class="card-title">teamplate 3</h4>
+                    <a name="" id="" class="btn btn-primary py-2 px-4" href="#" role="button">view</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="my-5 overflow-hidden container">
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Find Us</a>
+                    <a href="#" class="list-group-item list-group-item-action">facebook</a>
+                    <a href="#" class="list-group-item list-group-item-action">Twitter</a>
+                    <a href="#" class="list-group-item list-group-item-action">Youtube</a>
+                    <a href="#" class="list-group-item list-group-item-action">Instagram</a>
+                </div>
+            </div>
+            <div class="col-md-4  mt-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Site Map</a>
+                    <a href="#" class="list-group-item list-group-item-action">Home</a>
+                    <a href="#" class="list-group-item list-group-item-action">Feauters</a>
+                    <a href="#" class="list-group-item list-group-item-action">Subscrpition</a>
+                    <a href="#" class="list-group-item list-group-item-action">Tempaltes</a>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">Team</a>
+                    <a href="#" class="list-group-item list-group-item-action">Amr</a>
+                    <a href="#" class="list-group-item list-group-item-action">hamdy</a>
+                    <a href="#" class="list-group-item list-group-item-action">mostafa</a>
+                    <a href="#" class="list-group-item list-group-item-action">Mohammed jr</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- js linking  -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
